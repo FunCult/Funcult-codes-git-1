@@ -66,6 +66,11 @@ img:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.rainbow-text:hover {
+  transition: all 400ms ease;
+  filter: hue-rotate(353deg);
+}
 #date {
   color: black;
 }
