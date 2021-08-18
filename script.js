@@ -63,7 +63,11 @@ function search(event) {
 
   axios.get(apiUrl).then(updateTemperature);
 }
-
+function handleSubmit(event) {
+  event.preventDefault();
+  let city = document.querySelector("#city-input").value;
+  searchCity(city);
+}
 let searchForm = document.querySelector("#search-form");
 
 searchForm.addEventListener("submit", search);
