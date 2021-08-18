@@ -66,3 +66,8 @@ img:hover {
 #date {
   color: black;
 }
+#city-search {
+  font-size: 30px;
+  transition: all 200ms ease;
+  filter: 5px solid hue-rotate(353deg);
+}
