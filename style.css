@@ -54,7 +54,7 @@ img:hover {
 }
 .rainbow-text {
   background-image: linear-gradient(
-    to right,
+    to left,
     violet,
     indigo,
     blue,
