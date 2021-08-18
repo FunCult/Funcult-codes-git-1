@@ -1,3 +1,68 @@
 h1 {
   color: red;
 }
+body {
+  margin: auto;
+  display: block;
+  position: center;
+  background: transparent;
+}
+
+img:hover {
+  transition: all 400ms ease;
+  filter: hue-rotate(353deg);
+  cursor: crosshair;
+}
+
+.container {
+  margin: auto;
+  color: pink;
+  position: relative;
+  background: transparent;
+}
+
+.container:hover {
+  transition: all 200ms ease;
+  filter: hue-rotate(353deg);
+  cursor: grab;
+}
+
+.submit {
+  color: coral;
+}
+
+.submit:hover {
+  transition: all 200ms ease;
+  filter: 5px solid hue-rotate(353deg);
+  outline: 4px solid sandybrown;
+}
+
+.cloud {
+  cursor: pointer;
+}
+
+.row {
+  outline: 4px solid black;
+  font-size: larger;
+}
+.pacifica {
+  color: sandybrown;
+  font-size: 80px;
+}
+.pacifica:hover {
+  transition: all 200ms ease;
+  filter: 5px solid hue-rotate(353deg);
+}
+.fun {
+  margin: auto;
+  padding: auto;
+  font-size: 50px;
+  position: top right;
+}
+.fun:hover {
+  transition: all 200ms ease;
+  filter: 5px solid hue-rotate(353deg);
+}
+#date {
+  color: black;
+}
