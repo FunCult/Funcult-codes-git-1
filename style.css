@@ -67,7 +67,7 @@ img:hover {
 }
 #city-search {
   color: pink;
-  font-size: 30px;
+  font-size: 40px;
   transition: all 200ms ease;
   filter: 5px solid hue-rotate(353deg);
 }
