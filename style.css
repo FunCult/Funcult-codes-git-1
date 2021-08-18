@@ -42,7 +42,7 @@ img:hover {
 }
 
 .row {
-  outline: 4px solid black;
+  margin: auto outline 4px solid black;
   font-size: larger;
 }
 .pacifica {
