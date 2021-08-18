@@ -1,4 +1,4 @@
-h1 {
+h4 {
   color: red;
 }
 body {
@@ -52,10 +52,19 @@ img:hover {
   transition: all 200ms ease;
   filter: 5px solid hue-rotate(353deg);
 }
-
-.fun:hover {
-  transition: all 200ms ease;
-  filter: 5px solid hue-rotate(353deg);
+.rainbow-text {
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #date {
   color: black;
