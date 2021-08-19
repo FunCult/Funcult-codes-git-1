@@ -99,16 +99,19 @@ img:hover {
 }
 #current-location-button {
   border-radius: 50px;
-  margin: 8px, 8px;
+  margin: 10px, 10px;
   display: inline;
   background-color: rgb(253, 200, 130);
   border: 3px solid #fdbc5b;
-  color: #dbf15d;
+  color: #141414;
   font-size: 16px;
-
   padding: 10px 10px;
   text-decoration: none;
   transition: all 200ms ease;
   width: 100px;
   height: 100px;
+}
+#current-location-button:hover {
+  transition: all 400ms ease;
+  filter: hue-rotate(353deg);
 }
