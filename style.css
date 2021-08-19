@@ -99,7 +99,7 @@ img:hover {
 }
 #current-location-button {
   border-radius: 20px;
-  margin: 0 auto;
+  margin: 5px, 5px;
   display: block;
   background-color: rgb(253, 200, 130);
   border: 3px solid #fdbc5b;
