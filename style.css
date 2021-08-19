@@ -114,4 +114,5 @@ img:hover {
 #current-location-button:hover {
   transition: all 400ms ease;
   filter: hue-rotate(353deg);
+  font-size: larger;
 }
