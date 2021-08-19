@@ -109,6 +109,6 @@ img:hover {
   padding: 10px 10px;
   text-decoration: none;
   transition: all 200ms ease;
-  width: 10px;
-  height: 10px;
+  width: 30px;
+  height: 30px;
 }
