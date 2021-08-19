@@ -98,9 +98,9 @@ img:hover {
   filter: hue-rotate(353deg);
 }
 #current-location-button {
-  border-radius: 20px;
+  border-radius: 50px;
   margin: 5px, 5px;
-  display: block;
+  display: inline;
   background-color: rgb(253, 200, 130);
   border: 3px solid #fdbc5b;
   color: #dbf15d;
