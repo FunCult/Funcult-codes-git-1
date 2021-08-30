@@ -40,10 +40,12 @@ function formatDay(timestamp) {
 
   return days[day];
 }
+function displayForecast(response) {
+  let date = response.data.daily;
 
-let dateElement = document.querySelector("#date");
-let currentTime = new Date();
-dateElement.innerHTML = formatDate(currentTime);
+  let dateElement = document.querySelector("#date");
+
+
 
 function updateTemperature(response) {
   let searchedTemperature = Math.round(response.data.main.temp);
