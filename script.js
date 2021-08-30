@@ -33,6 +33,13 @@ function formatDate(timestamp) {
   let day = days[day.getDay()];
   return `${day} ${hours}:${minutes} ☜ ◕_◕ ༽つ`;
 }
+function formatDay(timestamp) {
+  let date = new Date(timestamp * 1000);
+  let day = date.getDay();
+  let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+  return days[day];
+}
 
 let dateElement = document.querySelector("#date");
 let currentTime = new Date();
