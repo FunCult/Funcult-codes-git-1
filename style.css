@@ -15,8 +15,8 @@ h3:hover {
   transition: all 400ms ease;
   filter: hue-rotate(353deg);
   border: 3px solid #fdbc5b;
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
 }
 
 p {
@@ -28,8 +28,8 @@ p:hover {
   transition: all 400ms ease;
   filter: hue-rotate(353deg);
   border: 3px solid #fdbc5b;
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
 }
 
 body {
