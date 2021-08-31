@@ -17,15 +17,12 @@ p {
   margin: auto;
   padding: 0%;
   color: red;
-  font-size: x-large;
+  font-size: 27px;
 }
 
 p:hover {
   transition: all 400ms ease;
   filter: hue-rotate(353deg);
-  border: 3px solid #fdbc5b;
-  width: 27px;
-  height: 27px;
 }
 
 body {
