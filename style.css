@@ -5,8 +5,6 @@ h4:hover {
   border: 3px solid #fdbc5b;
   transition: all 400ms ease;
   filter: hue-rotate(353deg);
-  width: 100px;
-  height: 100px;
 }
 h3 {
   color: red;
@@ -15,8 +13,6 @@ h3:hover {
   transition: all 400ms ease;
   filter: hue-rotate(353deg);
   border: 3px solid #fdbc5b;
-  width: 50px;
-  height: 50px;
 }
 
 p {
