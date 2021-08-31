@@ -149,7 +149,7 @@ celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
 search("Santa Rosa");
 
-function showWeather(response) {
+function showWeather(position) {
   let h1 = document.querySelector("h1");
   h1.innerHTML = `It is currently ${timestamp}° in `;
 }
@@ -162,4 +162,9 @@ function retrievePosition(position) {
   axios.get(url).then(showWeather);
 }
 
-navigator.geolocation.getCurrentPosition(retrievePosition);
+function getCurrentPosition() {
+  navigator.geolocation.getCurrentPosition(showPosition);
+}
+
+let button = document.querySelector("button");
+button.addEventListener("click", getCurrentPosition);
