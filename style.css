@@ -19,9 +19,11 @@ p {
   color: red;
   font-size: 27px;
 }
+.p1 {
+  border: 1px solid #dadde1;
+}
 
 p:hover {
-  font-size: larger;
   transition: all 400ms ease;
   filter: hue-rotate(353deg);
 }
