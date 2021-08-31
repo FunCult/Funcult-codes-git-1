@@ -149,9 +149,9 @@ celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
 search("Santa Rosa");
 
-function showWeather(position) {
+function showPosition(position) {
   let h1 = document.querySelector("h1");
-  h1.innerHTML = `It is currently ${timestamp}° in `;
+  h1.innerHTML = `Your Latitude is ${position.coords.latitude} and your longitude is ${position.coords.longitude}`;
 }
 
 function getCurrentPosition() {
