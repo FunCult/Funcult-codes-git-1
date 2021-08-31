@@ -133,5 +133,5 @@ img:hover {
   font-size: x-small;
 }
 #fahrenheit-link {
-  outline-color: red 3px solid;
+  color: red 3px solid;
 }
