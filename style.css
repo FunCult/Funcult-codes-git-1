@@ -1,5 +1,6 @@
 h4 {
   color: red;
+  filter: saturate(353deg);
 }
 h4:hover {
   transition: all 400ms ease;
@@ -7,6 +8,7 @@ h4:hover {
 }
 h3 {
   color: red;
+  filter: saturate(353deg);
 }
 h3:hover {
   transition: all 400ms ease;
@@ -18,9 +20,7 @@ p {
   padding: 0%;
   color: red;
   font-size: 27px;
-}
-.p1 {
-  outline: 10px solid #dadde1;
+  filter: saturate(353deg);
 }
 
 p:hover {
@@ -153,4 +153,5 @@ img:hover {
 }
 #fahrenheit-link {
   color: red 3px solid;
+  filter: saturate(353deg);
 }
