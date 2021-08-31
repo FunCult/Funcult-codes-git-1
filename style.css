@@ -21,6 +21,7 @@ p {
 }
 
 p:hover {
+  font-size: larger;
   transition: all 400ms ease;
   filter: hue-rotate(353deg);
 }
