@@ -152,7 +152,7 @@ search("Santa Rosa");
 function showWeather(response) {
   let h1 = document.querySelector("h1");
   let temperature = Math.round(response.data.main.temp);
-  h1.innerHTML = `It is currently ${temperature}° in ${response.data.name}`;
+  h1.innerHTML = `It is currently ${date}° in ${response.data.name}`;
 }
 
 function retrievePosition(position) {
