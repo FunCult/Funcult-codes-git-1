@@ -1,30 +1,35 @@
 h4 {
   color: red;
-  border: 3px solid #fdbc5b;
 }
 h4:hover {
+  border: 3px solid #fdbc5b;
   transition: all 400ms ease;
   filter: hue-rotate(353deg);
+  width: 100px;
+  height: 100px;
 }
 h3 {
   color: red;
-  border: 3px solid #fdbc5b;
 }
 h3:hover {
   transition: all 400ms ease;
   filter: hue-rotate(353deg);
   border: 3px solid #fdbc5b;
+  width: 100px;
+  height: 100px;
 }
 
 p {
   color: red;
   font-size: x-large;
-  border: 3px solid #fdbc5b;
 }
 
 p:hover {
   transition: all 400ms ease;
   filter: hue-rotate(353deg);
+  border: 3px solid #fdbc5b;
+  width: 100px;
+  height: 100px;
 }
 
 body {
