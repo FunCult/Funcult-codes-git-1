@@ -154,14 +154,6 @@ function showWeather(position) {
   h1.innerHTML = `It is currently ${timestamp}° in `;
 }
 
-function retrievePosition(position) {
-  let apiKey = "159579a67bddf3fe42a90d0145993baf";
-  let lat = position.coords.latitude;
-  let lon = position.coords.longitude;
-  let url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`;
-  axios.get(url).then(showWeather);
-}
-
 function getCurrentPosition() {
   navigator.geolocation.getCurrentPosition(showPosition);
 }
