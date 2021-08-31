@@ -13,11 +13,15 @@ h3 {
 h3:hover {
   transition: all 400ms ease;
   filter: hue-rotate(353deg);
+  border: 3px solid #fdbc5b;
 }
+
 p {
   color: red;
   font-size: x-large;
+  border: 3px solid #fdbc5b;
 }
+
 p:hover {
   transition: all 400ms ease;
   filter: hue-rotate(353deg);
