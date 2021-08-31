@@ -2,7 +2,6 @@ h4 {
   color: red;
 }
 h4:hover {
-  border: 3px solid #fdbc5b;
   transition: all 400ms ease;
   filter: hue-rotate(353deg);
 }
@@ -12,7 +11,6 @@ h3 {
 h3:hover {
   transition: all 400ms ease;
   filter: hue-rotate(353deg);
-  border: 3px solid #fdbc5b;
 }
 
 p {
