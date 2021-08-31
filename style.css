@@ -20,7 +20,7 @@ p {
   font-size: 27px;
 }
 .p1 {
-  border: 10px solid #dadde1;
+  outline: 10px solid #dadde1;
 }
 
 p:hover {
