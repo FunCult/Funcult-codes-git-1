@@ -132,3 +132,6 @@ img:hover {
   filter: hue-rotate(353deg);
   font-size: x-small;
 }
+#fahrenheit-link {
+  outline-color: red 3px solid;
+}
