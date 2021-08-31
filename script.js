@@ -151,7 +151,6 @@ search("Santa Rosa");
 
 function showWeather(response) {
   let h1 = document.querySelector("h1");
-
   h1.innerHTML = `It is currently ${day}° in `;
 }
 
