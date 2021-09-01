@@ -7,7 +7,7 @@ h4:hover {
   filter: hue-rotate(353deg);
 }
 h3 {
-  color: red;
+  color:color: pink;
   filter: saturate(353deg);
 }
 h3:hover {
@@ -23,12 +23,12 @@ p {
   filter: saturate(353deg);
 }
 
-p:hover {
+p:hover {color: pink;
   transition: all 400ms ease;
   filter: hue-rotate(353deg);
 }
 
-body {
+body {color: pink;
   margin: auto;
   display: block;
   position: center;
@@ -41,6 +41,7 @@ img:hover {
   cursor: crosshair;
 }
 .weather-app-wrapper {
+  color: pink;
   max-width: 600px;
   margin: 30px auto;
 }
