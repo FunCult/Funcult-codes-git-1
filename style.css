@@ -64,7 +64,7 @@ img:hover {
 }
 
 .container:hover {
-  transition: all 200ms ease;
+  transition: all 400ms ease;
   filter: hue-rotate(353deg);
   cursor: pointer;
 }
@@ -74,9 +74,8 @@ img:hover {
 }
 
 .submit:hover {
-  transition: all 200ms ease;
+  transition: all 400ms ease;
   filter: 5px solid hue-rotate(353deg);
-  outline: 4px solid sandybrown;
 }
 
 .cloud {
