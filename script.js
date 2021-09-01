@@ -31,7 +31,7 @@ function formatDate(timestamp) {
   ];
 
   let day = days[date.getDay()];
-  return `${day} ${hours}:${minutes} 🕙 ◕_◕ ༽つ`;
+  return `${day} ${hours}:${minutes} 🕙(✿◠‿◠) `;
 }
 function formatDay(timestamp) {
   let date = new Date(timestamp * 1000);
