@@ -152,11 +152,11 @@ search("Santa Rosa");
 function showPosition(position) {
   let h1 = document.querySelector("h1");
   h1.innerHTML = `Your Latitude is ${position.coords.latitude} and your longitude is ${position.coords.longitude}`;
-}
-let apiKey = "159579a67bddf3fe42a90d0145993baf";
-let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${apiKey}&units=metric`;
-axios.get(apiUrl).then(displayCurrentTemperature);
 
+  let apiKey = "159579a67bddf3fe42a90d0145993baf";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(displayCurrentTemperature);
+}
 function displayCurrentTemperature(response) {
   console.log(response);
 }
