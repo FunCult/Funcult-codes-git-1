@@ -157,6 +157,5 @@ img:hover {
   font-size: x-small;
 }
 #fahrenheit-link {
-  color: coral;
   filter: saturate(353deg);
 }
