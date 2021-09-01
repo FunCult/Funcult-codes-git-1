@@ -21,7 +21,7 @@ h3:hover {
 p {
   margin: auto;
   padding: 0%;
-  color: red;
+  color: coral;
   font-size: 27px;
   filter: saturate(353deg);
 }
@@ -157,6 +157,6 @@ img:hover {
   font-size: x-small;
 }
 #fahrenheit-link {
-  color: #fdb 3px solid;
+  color: coral;
   filter: saturate(353deg);
 }
