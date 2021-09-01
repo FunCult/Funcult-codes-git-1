@@ -7,7 +7,7 @@ h4:hover {
   filter: hue-rotate(353deg);
 }
 h3 {
-  color:color: pink;
+  color: pink;
   filter: saturate(353deg);
 }
 h3:hover {
@@ -23,12 +23,14 @@ p {
   filter: saturate(353deg);
 }
 
-p:hover {color: pink;
+p:hover {
+  color: pink;
   transition: all 400ms ease;
   filter: hue-rotate(353deg);
 }
 
-body {color: pink;
+body {
+  color: pink;
   margin: auto;
   display: block;
   position: center;
