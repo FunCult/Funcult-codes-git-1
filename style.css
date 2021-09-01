@@ -6,8 +6,8 @@ h4 {
   filter: saturate(353deg);
 }
 h4:hover {
+  color: pink;
   transition: all 400ms ease;
-  filter: hue-rotate(353deg);
 }
 h3 {
   color: pink;
