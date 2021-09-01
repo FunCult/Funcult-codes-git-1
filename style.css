@@ -83,7 +83,7 @@ img:hover {
 }
 
 .row {
-  margin: auto outline 4px solid black;
+  margin: auto 4px solid black;
   font-size: larger;
 }
 .pacifica {
@@ -157,6 +157,6 @@ img:hover {
   font-size: x-small;
 }
 #fahrenheit-link {
-  color: red 3px solid;
+  color: #fdb 3px solid;
   filter: saturate(353deg);
 }
